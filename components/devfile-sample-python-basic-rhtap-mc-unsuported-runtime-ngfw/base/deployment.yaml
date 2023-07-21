@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-python-basic-rhtap-mc-unsuported-runtime-ngfw
     spec:
       containers:
-      - image: python-image:latest
+      - image: quay.io/redhat-appstudio-qe/multi-comp-e2e-jljr-tenant/mc-unsupported-runtime/devfile-sample-python-basic-rhtap-mc-unsuported-runtime-ngfw@sha256:1d86100a702e619da6e3d5b1a6893793d8292f396d2f77a3396914fd6946159b
         name: my-python
         ports:
         - containerPort: 8081
